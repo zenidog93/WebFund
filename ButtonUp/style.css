@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.search{
+    background-color: lightgrey;
+    color: teal;
+    border-color: teal;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 50px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: block;
+
+}
+.plus{
+    background-color: aquamarine;
+    border: 2px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: block;
+    font-size: 16px;
+    margin: 10px 50px;
+    border-radius: 50%;
+}
+
+.create{
+    text-align: center;
+    display: block;
+    color: white;
+    background-color: blue;
+    margin: 10px 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 10px 5px 5px black;
+}
