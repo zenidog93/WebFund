@@ -9,116 +9,95 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="main-wrapper">
 
-    <div class="nav">
-        <ul class="nav-links">
-            <li><h1>Profile</h1></li>
-            <li><a href="#">Home</a></li>
-            <li><a href="#" class="active">My Profile</a></li>
-            <li><a href="#">Find Connections</a></li>
-        </ul>
-        <button class="btn">Sign Out</button>
-    </div>
-
-    <div class="main-container">
-        <!-- main container for all my page -->
-        <div class="left-container">
-            <div class="usercard-container">
-                <!-- container for usercard -->
-                <div class="top-usercard">
-                    <img src="icons/user-circle.png" alt="user circle">
-                </div>
-                <div class="bottom-usercard">
-                    <h2>Jane Doe</h2>
-                    <div class="flexed">
-                        <img src="icons/map-marker.png" alt="map marker">
-                        <p>Seattle</p>
-                    </div>
-                    <p>Developer | Engineer | Problem Solver <br>
-                        Master of shadows and the Internet!
-                    </p>
-                    <div class="flexed">
-                        <img src="icons/gear.png" alt="gear"></p>
-                        <a href="#" target="_blank">edit profile</a>
-                    </div>
-                </div>
+        <div class="nav">
+            <div class="flexed">
+                <h1>Profile</h1> 
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#" class="active">My Profile</a></li>
+                    <li><a href="#">Find Connections</a></li>
+                </ul>
             </div>
-            <div class="education-container">
-                <!-- container for education -->
-                <div class="education-top">
-                    <h3>Education</h3>
-                </div>
-                <div class="education-bottom">
-                    <h2>Coding Dojo-Full Stack Bootcamp</h2>
-                    <p class="bg-grey"> Jan 2023-April 2023 </p>
-                    <p>Triple black belt in Pythin, JavaScript, and Java
-                    </p>
-                </div>
-            </div>
+            <button class="btn">Sign Out</button>
         </div>
 
-        <div class="right-container">
-            <div class="side-container">
-                <!-- container for connection request -->
-                <div class="side-top">
-                    <p>2</p>
-                    <h3>Connection Request</h3>
+        <div class="flex-container">
+            <!-- main container for all my page -->
+            <div class="left-container">
+                <div class="usercard-container">
+                    <!-- container for usercard -->
+                    <div class="top-usercard">
+                        <img src="icons/user-circle.png" alt="user circle">
+                    </div>
+                    <div class="bottom-usercard">
+                        <h2>Jane Doe</h2>
+                        <p class="flexed"> <img src="icons/map-marker.png" alt="map marker">Seattle</p>
+                        <p>Developer | Engineer | Problem Solver <br>
+                            Master of shadows and the Internet!
+                        </p>
+                        <div class="flexed">
+                            <img src="icons/gear.png" alt="gear">
+                            <a href="#" target="_blank">edit profile</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="side-bottom">
-                    <div class="in-between">
-                        <div class="flexed">
-                            <img src="images/todd-s.jpg" alt="todd">
-                            <p>Todd E </p>
-                        </div>
-                        <div class="flexed">
-                            <img src="icons/accept-circle.png" alt="accept">
-                            <img src="icons/close-circle.png" alt="decline">
-                        </div>
+                <div class="education-container">
+                    <!-- container for education -->
+                    <div class="education-top">
+                        <h3>Education</h3>
                     </div>
-                    <div class="in-between">
-                        <div class="flexed">
-                            <img src="images/phil-s.jpg" alt="todd">
-                            <p>Phil K</p>
-                        </div>
-                        <div class="flexed">
-                            <img src="icons/accept-circle.png" alt="accept">
-                            <img src="icons/close-circle.png" alt="decline">
-                        </div>
+                    <div class="education-bottom">
+                        <h2>Coding Dojo-Full Stack Bootcamp</h2>
+                        <p class="bg-grey"> Jan 2023-April 2023 </p>
+                        <p>Triple black belt in Pythin, JavaScript, and Java
+                        </p>
+                    </div>
                 </div>
             </div>
-        <div class="side-container">
-                <!-- container for your connections -->
-            <div class = "side-top">
-                <p>500+</p>
-                <h3>Your Connection</h3>
-            </div>
-            <div class="side-bigger">
-                <div>
-                    <div class="flexed">
-                        <img src="images/adrien-s.jpg" alt="todd">
-                        <p>Adrien S</p>
-                    </div>
-                    <div class="flexed">
-                        <img src="images/anne-s.jpg" alt="todd">
-                        <p>Anne S </p>
-                    </div>
-                    <div class="flexed">
-                        <img src="images/alayne-s.jpg" alt="todd">
-                        <p>Alayne S </p>
-                    </div>
-                    <div class="flexed">
-                        <img src="images/arry-s.jpg" alt="todd">
-                        <p>Arry Y</p>
-                    </div>
-                </div>    
-            </div>
-            <div class="side-tiny flexed">
-                <a href="#">View More</a>
-            </div>
-        </div>
 
+            <div class="right-container">
+                <div class="side-container">
+                    <!-- container for connection request -->
+                    <div class="side-top">
+                        <p>2</p>
+                        <h3>Connection Request</h3>
+                    </div>
+                    <div class="side-bottom">
+                        <div class="in-between">
+                            <p class="flexed"> <img src="images/todd-s.jpg" alt="todd">Todd E </p>
+                            <div class="flexed">
+                                <img src="icons/accept-circle.png" alt="accept">
+                                <img src="icons/close-circle.png" alt="decline">
+                            </div>
+                        </div>
+                        <div class="in-between">
+                            <p class="flexed"><img src="images/phil-s.jpg" alt="todd">Phil K</p>
+                            <div class="flexed">
+                                <img src="icons/accept-circle.png" alt="accept">
+                                <img src="icons/close-circle.png" alt="decline">
+                            </div>
+                        </div>
+                    </div>
+                <div class="side-container">
+                    <!-- container for your connections -->
+                    <div class = "side-top">
+                        <p>500+</p>
+                        <h3>Your Connection</h3>
+                    </div>
+                    <div class="side-bigger">
+                        <p class="flexed"><img src="images/adrien-s.jpg" alt="todd">Adrien S</p>
+                        <p class="flexed"><img src="images/anne-s.jpg" alt="todd">Anne S </p>    
+                        <p class="flexed"><img src="images/alayne-s.jpg" alt="todd">Alayne S </p>    
+                        <p class="flexed"><img src="images/arry-s.jpg" alt="todd">Arry Y</p>   
+                    </div>
+                    <a href="#" class="side-tiny flexed">View More</a>
+            </div>
+            </div>
         </div>
     </div>
+
 </body>
 
 </html>
