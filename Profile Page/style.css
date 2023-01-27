@@ -4,7 +4,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Balsamiq Sans', cursive;
-    border: 1px dotted red;
+    border: red 1px dotted;
 }
 a{
     color: royalblue;
@@ -32,7 +32,7 @@ a{
     margin-left: 0px;
 }
 .right-container{
-    margin-left: 50px; 
+    margin-left: 48px; 
 }
 .nav{
     background-color: black;
@@ -64,8 +64,9 @@ a{
     box-shadow: 10px 5px 5px black;
 }
 .usercard-container{
-    height: 300px;
+    height: 270px;
     padding-top: 30px;
+    padding-bottom: 30px;
 }
 .top-usercard{
     width: 400px;
@@ -84,7 +85,7 @@ a{
     background-color: lightgray;
     border: 1px solid dimgrey;
     width: 400px;
-    height: 200px;
+    height: 180px;
     font-size: large;
     padding-top: 30px;
 }
@@ -98,7 +99,7 @@ a{
 .side-container{
     /* width: 300px; */
     height: 200px;
-    padding-top: 30px;
+    padding-top: 40px;
 
 }
 .side-top{
