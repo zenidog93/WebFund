@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather  Forecast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav-header">
+        <h1>Dojo Weather</h1>
+        <ul class="flexed">
+            <li><a href="#" onclick= "alert('Burbank')">Burbank</a></li>
+            <li><a href="#" onclick="alert('Chicago')">Chicago</a></li>
+            <li><a href="#" onclick="alert('Dallas')">Dallas</a></li>
+        </ul>
+
+    </div>
+    <div class="main-wrapper">
+        <div class="city-header">
+            <h2>San Jose</h2>
+            <div>
+                <label>show temperature in </label>
+                <select onchange="convertTemp(this)">
+                    <option>celcius</option>
+                    <option>ferenheit</option>
+                </select>
+            </div>
+        </div>
+        <div class="flexed-container">
+            <div class="day-box">
+                <h3>Today</h3>
+                <img src="assets/some_rain.png" alt="cloud with rain">
+                <p>some rain</p>
+                <div class="flexed-between">
+                    <p class="color-red"><span id="todayHigh">24</span>&#176</p>
+                    <p class="color-blue"><span id="todayLow">18</span>&#176</p>
+                </div>
+            </div>
+            <div class="day-box">
+                <h3>Tomorrow</h3>
+                <img src="assets/some_sun.png" alt="sun">
+                <p>some sun</p>
+                <div class="flexed-between">
+                    <p class="color-red"><span id="tomorrowHigh">27</span>&#176</p>
+                    <p  class="color-blue"><span id="tomorrowLow">19</span>&#176</p>
+                </div>
+            </div>
+            <div class="day-box">
+                <h3>Friday</h3>
+                <img src="assets/some_clouds.png" alt="cloud">
+                <p>some clouds</p>
+                <div class="flexed-between">
+                    <p class="color-red"><span id="fridayHigh">21</span>&#176</p>
+                    <p class="color-blue"><span id="fridayLow" >16</span>&#176</p>
+                </div>
+            </div>
+            <div class="day-box">
+                <h3>Saturday</h3>
+                <img src="assets/some_sun.png" alt="sun">
+                <p>some sun</p>
+                <div class="flexed-between">
+                    <p class="color-red"><span id="saturdayHigh">26</span>&#176</p>
+                    <p class="color-blue"><span id="saturdayLow">21</span>&#176</p>
+                </div>
+            </div>
+
+        </div>
+        <div id="message">
+            <div class="header"><span>I am an Alert!</span><span onclick="removeMessage('#message')">×</span>
+            </div>
+            <p>This is some arbitrary alert text!, don't worry about what it actually says!</p>
+            <button onclick="removeMessage('#message')">OK</button>
+        </div>
+
+    </div>
+<script src="script.js"></script>
+</body>
+</html>

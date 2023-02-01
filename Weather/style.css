@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.flexed{
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+
+.nav-header{
+    width: 800px;
+    margin: 0px auto;
+    background-color: rgb(126, 208, 255);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-header h1{
+    font-size: 50px;
+}
+.nav-header ul{
+    list-style: none;
+    font-size: larger;
+    padding-right: 20px;
+}
+.nav-header a{
+    text-decoration: none;
+    color: white;
+}
+.main-wrapper{
+    width: 800px;
+    margin: 0px auto;
+
+}
+.city-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 3px solid black;
+    border-radius: 2px;
+    font-size: larger;
+}
+
+.city-header select{
+    border: 1px solid black;
+}
+.flexed-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.day-box{
+    width: 20%;
+    background-color: rgb(240, 240, 240);
+    text-align: center;
+    padding: 10px;
+}
+
+.day-box img{
+    border-radius: 50%;
+    width: 120px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.flexed-between{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.day-box p{
+    font-size: larger;
+    font-weight: bold;
+}
+.color-blue{
+    color: blue;
+}
+.color-red{
+    color: red;
+}
+
+#message {
+    width: inherit;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 4px 4px 4px grey;
+    /* change the position properties here */
+    position:absolute;
+    bottom: 80px;
+}
+  #message * {
+    margin: 10px;
+}
+#message .header {
+    margin: 0px;
+    background-color: #ddd;
+    padding: 10px;
+    font-weight: 900;
+    display: flex;
+    justify-content: space-between;
+}
+#message button {
+    height: 30px;
+    width: 80px;
+}
